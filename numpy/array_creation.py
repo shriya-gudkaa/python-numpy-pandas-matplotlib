@@ -44,3 +44,16 @@ print("2D Zeros array:\n", zeros_2d)
 
 ones_2d = np.ones((3, 2))
 print("2D Ones array:\n", ones_2d)
+
+# 7. Create array filled with specific value
+
+full_array = np.full((3, 5), 3.14)
+print("Array filled with 3.14:\n", full_array)
+
+# 8. Create random array (uniform distribution)
+
+random_array = np.random.random((3, 3))
+print("Random 3x3 array (0 to 1):\n", random_array)
+
+random_int = np.random.randint(1, 10, (3, 3))
+print("Random integer array:\n", random_int)
