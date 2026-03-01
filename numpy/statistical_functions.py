@@ -26,3 +26,20 @@ print()
 # 3. Cumulative Functions
 print("Cumulative Sum:", np.cumsum(arr))
 print("Cumulative Product:", np.cumprod(arr))
+
+arr2 = np.array([[1, 2, 3],
+                 [4, 5, 6],
+                 [7, 8, 9]])
+
+print("2D Array:\n", arr2)
+
+""" axis = 0 (column-wise)
+    axis = 1 (row-wise)
+    Standard Deviation """
+
+print("Standard Deviation (axis=0):", np.std(arr2, axis=0))
+print("Standard Deviation (axis=1):", np.std(arr2, axis=1))
+
+# Variance
+print("Variance (axis=0):", np.var(arr2, axis=0))
+print("Variance (axis=1):", np.var(arr2, axis=1))
