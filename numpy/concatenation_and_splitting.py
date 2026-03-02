@@ -20,7 +20,7 @@ print("\nConcatenated 1D array:",concat)
 v_stack = np.vstack((a,b))
 print("\nVertical Stack:\n", v_stack)
 
-# Horizontal Stack (hstack)
+# Horizontal Stack 
 h_stack = np.hstack((a, b))
 print("\nHorizontal Stack:", h_stack)
 
@@ -36,6 +36,8 @@ print("\nSplit arrays:",split)
 
 array_s = np.array_split(x,4)
 print("\nSplit array into unequal parts:",array_s)
+
+
 
 # 2d array
 arr2d = np.arange(16).reshape(4, 4)
