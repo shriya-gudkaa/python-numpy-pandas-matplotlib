@@ -51,3 +51,13 @@ print()
 # Filtering with condition
 print("Students with Marks > 85:")
 print(df[df["Marks"] > 85])
+
+# Selecting specific rows and columns using loc
+print("Using loc to select rows 1 to 2 and column 'Name':")
+print(df.loc[1:2, "Name"])
+print()
+
+# Selecting rows and columns using iloc
+print("Using iloc to select first two rows and first two columns:")
+print(df.iloc[0:2, 0:2])
+print()
