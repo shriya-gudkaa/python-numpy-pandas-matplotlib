@@ -40,3 +40,19 @@ print()
 # Fill missing values
 print("DataFrame after fillna(0):")
 print(df.fillna(0))
+
+# Deleting Columns
+print("Deletes entire columns")
+del df['Age']
+print(df)
+
+# Deleting Rows and Columns using drop()
+df_new = df.drop([3]) 
+print(df_new)
+
+print(df.drop('Name', axis=1)) 
+
+# duplicated() checks for duplicate rows and returns True or False
+print("Duplicate:")
+df = pd.DataFrame({'A':[1, 1, 2]}) 
+print(df.duplicated())
