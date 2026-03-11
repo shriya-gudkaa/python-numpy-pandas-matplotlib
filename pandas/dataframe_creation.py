@@ -29,3 +29,10 @@ array_data = np.array([
 df_array = pd.DataFrame(array_data, columns=["A", "B", "C"])
 print("DataFrame from NumPy array:")
 print(df_array)
+
+# 4 Creating DataFrame from another DataFrame
+s = pd.Series([1.0, 2.0, 3.0], index=["a", "b", "c"]) 
+df = pd.DataFrame(s) 
+df1 = df   # Assign DataFrame to another variable  
+print("DataFrame from another DataFrame:")
+print(df1) 
