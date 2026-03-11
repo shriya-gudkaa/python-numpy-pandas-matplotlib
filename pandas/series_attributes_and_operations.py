@@ -24,6 +24,7 @@ print("Size:", s.size)
 print("First element:", s[0])
 print("Last element:", s[4])
 
+
 print()
 
 # 3 Basic Functions
@@ -31,3 +32,7 @@ print("Sum:", s.sum())
 print("Mean:", s.mean())
 print("Maximum:", s.max())
 print("Minimum:", s.min())
+
+# Slicing
+print("s[:3]:\n ", s[:3])
+print("s[1:5]:\n ", s[1:5])
