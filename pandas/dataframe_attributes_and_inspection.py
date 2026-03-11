@@ -52,3 +52,7 @@ print()
 # describe() gives statistical summary of numeric columns
 print("Statistical Summary:")
 print(df.describe())
+
+# sort_values() sorts DataFrame based on column values. 
+print("Sorted values:")
+print(df.sort_values(by="Marks"))
