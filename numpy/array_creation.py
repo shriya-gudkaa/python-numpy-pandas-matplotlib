@@ -29,7 +29,11 @@ print("Range array:\n",arange_arr)
 arange_arr1 = np.arange(1,11,2)
 print("array created with arange start-stop-step:\n",arange_arr1)
 
-# 5. Create 2D array from list of lists
+# 5. linspace() is used to create an array of evenly spaced numbers between a given start and end value.
+arr = np.linspace(0, 1, 5)
+print("Linspace Array:\n", arr)
+
+# 6. Create 2D array from list of lists
 list_2d = [[1,2,3,4],
            [5,6,7,8]]
 
@@ -37,7 +41,7 @@ array_2d = np.array(list_2d)
 print("2D Array from list of lists:\n", array_2d)
 
 
-# 6. Create 2D zeros and ones arrays
+# 7. Create 2D zeros and ones arrays
 
 zeros_2d = np.zeros((2, 3))
 print("2D Zeros array:\n", zeros_2d)
@@ -45,15 +49,19 @@ print("2D Zeros array:\n", zeros_2d)
 ones_2d = np.ones((3, 2))
 print("2D Ones array:\n", ones_2d)
 
-# 7. Create array filled with specific value
+# 8. Create array filled with specific value
 
 full_array = np.full((3, 5), 3.14)
 print("Array filled with 3.14:\n", full_array)
 
-# 8. Create random array (uniform distribution)
+# 9. Create random array (uniform distribution)
 
 random_array = np.random.random((3, 3))
 print("Random 3x3 array (0 to 1):\n", random_array)
 
 random_int = np.random.randint(1, 10, (3, 3))
 print("Random integer array:\n", random_int)
+
+# 10. eye() is used to create an identity matrix (a square matrix where diagonal elements are 1 and others are 0).
+arr = np.eye(3, 3)
+print("Identity Matrix (3x3):\n", arr)
