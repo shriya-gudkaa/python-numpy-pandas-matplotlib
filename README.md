@@ -130,6 +130,3 @@ This repo was built purely for **learning and practice** — to get comfortable 
 ## 👩‍💻 Author
  
 **Shriya Gudka**  
-[![GitHub](https://img.shields.io/badge/GitHub-shriya--gudkaa-181717?style=flat&logo=github)](https://github.com/shriya-gudkaa)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shriya%20Gudka-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/shriya-gudka)
- 
